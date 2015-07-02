@@ -1,22 +1,6 @@
 MODULE SSD1306_OLED;
 (* =========================================================================  
    Example Cortex-M3 Oberon Module  
- 
-   Description:
-     Sitronix ST756R LCD Controller Driver
-
-   Target:
-     mbed systems
-     
-   Tested on: 
-     ARM mbed Application Board with a Newhaven C12832A1Z 128 x 32 LCD display 
-   
-   Reference:
-     Sitronix ST756R DataSheet Ver 1.5 (10 Mar 2006).
-     
-   (c) 2013-2014 CFB Software
-   http://www.astrobe.com
-   
    ========================================================================= *)
 
 IMPORT Timer, MCU, ResData, SPI, SYSTEM;
